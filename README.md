@@ -54,3 +54,9 @@
 5. Copy paste Client ID pada file  frontend/.env dan backend/.env
 6. Copy paste Client Secret key pada file backend/.env
 
+### SEBELUM SIGN IN
+![ONE TAP](https://user-images.githubusercontent.com/42617505/225217829-44caba33-f400-46e0-ac75-8042eb4f46fa.jpg)
+
+### SESUDAH SIGN IN
+![ONE TAP AFTER](https://user-images.githubusercontent.com/42617505/225218167-eb7956b5-4d98-4a37-a23b-ea2b5aacc3be.jpg)
+
