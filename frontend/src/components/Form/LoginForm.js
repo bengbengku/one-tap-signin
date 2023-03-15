@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useToggle, upperFirst, useMediaQuery } from '@mantine/hooks';
 import { useForm } from '@mantine/form';
 import './style.css';
@@ -8,13 +8,11 @@ import {
   Text,
   Paper,
   Group,
-  Button,
   Divider,
   Anchor,
   Stack,
 } from '@mantine/core';
 import axios from 'axios';
-import Cookies from 'js-cookie';
 
 function LoginForm({ setLoginData }) {
   const [type, toggle] = useToggle(['login', 'register']);
@@ -146,9 +144,9 @@ function LoginForm({ setLoginData }) {
               ? 'Already have an account? Login'
               : "Don't have an account? Register"}
           </Anchor>
-          <Button type='submit' radius='xl' color='red' style={{ zIndex: 99 }}>
+          <button type='submit' style={{ zIndex: 99 }}>
             {upperFirst(type)}
-          </Button>
+          </button>
         </Group>
       </form>
     </Paper>
